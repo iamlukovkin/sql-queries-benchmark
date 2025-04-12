@@ -33,6 +33,7 @@ fi
 
 echo "[" >"$OUTPUT_FILE"
 
+first_query=true
 while IFS= read -r QUERY; do
   if [[ -z "$QUERY" || "$QUERY" == \#* ]]; then
     continue
@@ -46,10 +47,17 @@ while IFS= read -r QUERY; do
     END=$(date +%s%3N)
     DURATION=$(echo "$END - $START" | bc)
 
-    echo "  {\"iteration\": $i, \"query\": \"$QUERY\", \"duration_ms\": $DURATION}," >>"$OUTPUT_FILE"
+    if $first_query; then
+      first_query=false
+    else
+      echo "," >>"$OUTPUT_FILE"
+    fi
+    echo "  {\"iteration\": $i, \"query\": \"$QUERY\", \"duration_ms\": $DURATION}" >>"$OUTPUT_FILE"
   done
 done <"$QUERY_FILE"
 
-sed -i '$ s/,$//' "$OUTPUT_FILE"
 echo "]" >>"$OUTPUT_FILE"
-echo "All done! results saved to: $OUTPUT_FILE"
+
+jq . "$OUTPUT_FILE" >"${OUTPUT_FILE}.tmp" && mv "${OUTPUT_FILE}.tmp" "$OUTPUT_FILE"
+
+echo "All done! Results saved to: $OUTPUT_FILE"
