@@ -1,0 +1,252 @@
+[
+  {
+    "iteration": 1,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 2,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 3,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 4,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 5,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 6,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 7,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 8,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 9,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 10,
+    "query": "SELECT pg_sleep(0.1);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 1,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 2,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 3,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 4,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 5,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 6,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 7,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 8,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 9,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 10,
+    "query": "SELECT pg_sleep(0.2);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 1,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 2,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 3,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 4,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 5,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 6,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 7,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 8,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 9,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 10,
+    "query": "SELECT pg_sleep(0.3);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 1,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 2,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 3,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 4,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 5,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 6,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 7,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 8,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 9,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 10,
+    "query": "SELECT pg_sleep(0.4);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 1,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 2,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 3,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 4,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 5,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 6,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 7,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 8,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 9,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  },
+  {
+    "iteration": 10,
+    "query": "SELECT pg_sleep(0.5);",
+    "duration_ms": 0
+  }
+]
