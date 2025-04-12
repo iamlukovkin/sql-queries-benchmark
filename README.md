@@ -6,10 +6,10 @@ A bash-script for analyze executing SQL-queries in PostgreSQL.
 
 Before running the script, you need to install the following utilities:
 
-- psql: PostgreSQL command-line client.
-- bc: Basic calculator for time calculations.
-- jq: JSON processor for prettifying the output.
-- sed: Stream editor for text manipulation (optional but useful for handling the trailing comma in JSON output).
+- `psql`: PostgreSQL command-line client.
+- `bc`: Basic calculator for time calculations.
+- `jq`: JSON processor for prettifying the output.
+- `sed`: Stream editor for text manipulation (optional but useful for handling the trailing comma in JSON output).
 
 ## Instruction
 
