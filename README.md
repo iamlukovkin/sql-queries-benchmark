@@ -9,7 +9,7 @@ A bash-script for analyze executing SQL-queries in PostgreSQL.
 1. Stable connection with PostgreSQL database;
 2. List of SQL-queries in one file (e.g. ./querries_example.sql);
 
-[!IMPORTANT]
+**Important**
 > Queries must be written each in one row and divided by ';'.
 
 ### Parameters
@@ -23,3 +23,25 @@ Executing script you must to enter parameters:
 - i — number of iterations (default 10).
 - f - file with SQL queries (by default queries.sql).
 - o — file for outputting results (results.json by default).
+
+### Execution
+
+For execute a script you must to add concrete permissions:
+
+```bash
+sudo chmod +x ./benchmark.sh
+```
+
+## Example
+
+```bash
+./benchmark.sh \
+  -h localhost \
+  -p 5432 \
+  -d postgres \
+  -u postgres \
+  -P MyStrongPassword \
+  -i 10 \
+  -f querries_example.sql \
+  -o results.json
+```
